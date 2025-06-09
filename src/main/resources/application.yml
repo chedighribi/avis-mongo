@@ -1,0 +1,19 @@
+spring:
+  data:
+   mongodb:
+     username: sa
+     password: Passw0rd
+     host: localhost
+     port: 27017
+     database: Gestion_Avis
+     authentication-database: admin
+     auto-index-creation: true
+   
+logging:
+  level:
+   org:
+    springframework:
+     data:
+      mongodb:
+       core:
+        MongoTemplate: DEBUG
