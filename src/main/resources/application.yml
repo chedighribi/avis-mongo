@@ -1,12 +1,7 @@
 spring:
   data:
    mongodb:
-     username: sa
-     password: Passw0rd
-     host: localhost
-     port: 27017
-     database: Gestion_Avis
-     authentication-database: admin
+     uri: mongodb://localhost:27017/Gestion_Avis
      auto-index-creation: true
    
 logging:
